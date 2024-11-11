@@ -172,7 +172,7 @@ string s = bitset<8>(x).to_string(); // s = "00001100"
 
 ```cpp
 int gcd(int a, int b) {
-  return b == 0 ? a : gcd(b, a % b)
+  return b == 0 ? a : gcd(b, a % b);
 }
 ```
 
