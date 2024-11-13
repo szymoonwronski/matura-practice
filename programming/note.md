@@ -16,7 +16,7 @@
     - [Library `Bitset`](#library-bitset)
 - [Must know algoritms](#must-know-algoritms)
   - [GCD - Greatest Common Divisor](#gcd---greatest-common-divisor)
-  - [LCM - Least Common Multiplyer](#lcm---least-common-multiplyer)
+  - [LCM - Least Common Multiple](#lcm---least-common-multiple)
 
 # Base conversions
 
@@ -188,7 +188,7 @@ int res = gcd(x, y); // res = 4
 > Remember to include `numeric` library for C++17.  
 > For C++14 use `algorithm` library with the function called `__gcd()`.
 
-## LCM - Least Common Multiplyer
+## LCM - Least Common Multiple
 
 ```cpp
 int lcm(int a, int b) {
